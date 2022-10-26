@@ -13,7 +13,11 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      transform: perspective(1000);
+      transform: perspective(400px);
+      -ms-transform: perspective(400px);
+      -moz-transform: perspective(400px);
+      -webkit-transform: perspective(400px);
+      -o-transform: perspective(400px) ；;
     }
 
     /* From uiverse.io by @satyamchaudharydev */
@@ -99,7 +103,11 @@
     }
 
     .card p:hover span {
-      transform: rotate(0);
+      transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
     }
   </style>
   <body>
@@ -110,9 +118,7 @@
     <div class="card">
       <p><span>宋海萌邀您</span></p>
       <p><span>一起离开</span></p>
-      <p>
-        <span>这座悲伤的城市</span>
-      </p>
+      <p><span>这座悲伤的城市</span></p>
     </div>
   </body>
 </html>
